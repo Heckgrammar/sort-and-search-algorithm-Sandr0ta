@@ -80,6 +80,17 @@ namespace compare_algorithm
         }
         static bool LinearSearch(int[] a, int numToFind)
         {
+            Console.WriteLine("How many numbers are you inputting?");
+            int length = Convert.ToInt16(Console.ReadLine());
+            int[] numbers = new int[length];
+            for (int i = 0; i < length; i++)
+            {
+                Console.WriteLine("Enter your number");
+                numbers[i] = Convert.ToInt16(Console.ReadLine());
+            }
+        }
+        
+
 
         }
         static bool BinarySearch(int[] a, int numToFind)
