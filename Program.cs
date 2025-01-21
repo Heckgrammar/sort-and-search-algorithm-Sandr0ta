@@ -94,7 +94,9 @@ namespace compare_algorithm
 
         }
         static bool BinarySearch(int[] a, int numToFind)
+
         {
+
             
         }
             
